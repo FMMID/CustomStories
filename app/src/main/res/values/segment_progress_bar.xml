@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_corner_radius">0dp</dimen>
+    <dimen name="default_segment_margin">8dp</dimen>
+    <dimen name="default_segment_stroke_width">0dp</dimen>
+    <integer name="default_segments_count">4</integer>
+    <integer name="default_time_per_segment_ms">5000</integer>
+    <declare-styleable name="SegmentedProgressBar">
+        <attr name="totalSegments" format="integer" />
+        <attr name="timePerSegment" format="integer" />
+        <attr name="segmentMargins" format="dimension" />
+        <attr name="segmentCornerRadius" format="dimension" />
+        <attr name="segmentStrokeWidth" format="dimension" />
+        <attr name="segmentBackgroundColor" format="color" />
+        <attr name="segmentSelectedBackgroundColor" format="color" />
+        <attr name="segmentStrokeColor" format="color" />
+        <attr name="segmentSelectedStrokeColor" format="color" />
+    </declare-styleable>
+</resources>

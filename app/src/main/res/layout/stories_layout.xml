@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/stories_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StoriesActivity">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/stories_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/stories_user_avatar_view"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/shape_of_avatar"
+        android:clipToOutline="true"
+        android:outlineProvider="background"
+        android:scaleType="centerCrop"
+        android:src="@drawable/stan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/stories_data_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:text="@string/app_name"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/stories_user_avatar_view"
+        app:layout_constraintEnd_toStartOf="@+id/stories_close_view"
+        app:layout_constraintStart_toEndOf="@+id/stories_user_avatar_view"
+        app:layout_constraintTop_toTopOf="@+id/stories_user_avatar_view" />
+
+    <ImageView
+        android:id="@+id/stories_close_view"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginEnd="25dp"
+        android:src="@drawable/ic_close_icon"
+        app:layout_constraintBottom_toBottomOf="@+id/stories_data_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/stories_data_view" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
