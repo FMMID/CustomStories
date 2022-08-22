@@ -7,8 +7,8 @@ import android.widget.LinearLayout
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.constraintlayout.widget.ConstraintSet
 import androidx.core.content.ContextCompat
-import com.app.stories.segmented_progress_bar.SegmentParams
-import com.app.stories.segmented_progress_bar.SegmentProgressBar
+import com.app.stories.segmentedprogressbar.SegmentParams
+import com.app.stories.segmentedprogressbar.SegmentProgressBar
 
 object StoriesUtils {
 

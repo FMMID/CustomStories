@@ -1,4 +1,4 @@
-package com.app.stories.segmented_progress_bar
+package com.app.stories.segmentedprogressbar
 
 import android.content.Context
 import android.graphics.Canvas

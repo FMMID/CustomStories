@@ -9,9 +9,9 @@ import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
 import androidx.viewpager2.widget.ViewPager2
-import com.app.stories.segmented_progress_bar.SegmentParams
-import com.app.stories.segmented_progress_bar.SegmentProgressBar
-import com.app.stories.segmented_progress_bar.SegmentedProgressBarListener
+import com.app.stories.segmentedprogressbar.SegmentParams
+import com.app.stories.segmentedprogressbar.SegmentProgressBar
+import com.app.stories.segmentedprogressbar.SegmentedProgressBarListener
 
 @SuppressLint("ClickableViewAccessibility")
 open class StoriesView @JvmOverloads constructor(
